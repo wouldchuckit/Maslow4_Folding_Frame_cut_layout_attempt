@@ -84,6 +84,232 @@
       "partName": "Maslow4_Folding_Frame_cut_layout_"
     },
     {
+      "atomType": "CutLayout",
+      "x": 0.4192708333333333,
+      "y": 0.572463768115942,
+      "uniqueID": "id-254092",
+      "name": "Cut Layout",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Sheet Width",
+          "ioValue": 2500,
+          "currentEquation": "2500"
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 1300
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 10
+        },
+        {
+          "name": "Orientations",
+          "ioValue": 12
+        }
+      ],
+      "placements": [
+        [
+          {
+            "id": 0,
+            "rotate": 0,
+            "translate": {
+              "x": 1224.2000000000005,
+              "y": 106.7
+            }
+          },
+          {
+            "id": 2,
+            "rotate": 0,
+            "translate": {
+              "x": 844.7335301377148,
+              "y": 237.6500000000002
+            }
+          },
+          {
+            "id": 3,
+            "rotate": 60,
+            "translate": {
+              "x": 1889.747396979107,
+              "y": 537.7531294932531
+            }
+          },
+          {
+            "id": 1,
+            "rotate": 0,
+            "translate": {
+              "x": 1363.2620158020263,
+              "y": 286.15000000000003
+            }
+          },
+          {
+            "id": 5,
+            "rotate": 180,
+            "translate": {
+              "x": 1224.2,
+              "y": 968.7680340053707
+            }
+          },
+          {
+            "id": 4,
+            "rotate": 0,
+            "translate": {
+              "x": 902.3888686727873,
+              "y": 334.6499999999996
+            }
+          },
+          {
+            "id": 7,
+            "rotate": 0,
+            "translate": {
+              "x": 2054.4371972222552,
+              "y": 498.60000000000053
+            }
+          },
+          {
+            "id": 6,
+            "rotate": 0,
+            "translate": {
+              "x": 77.63349295847311,
+              "y": 678.3680340053709
+            }
+          },
+          {
+            "id": 9,
+            "rotate": 0,
+            "translate": {
+              "x": 2195.2351892820875,
+              "y": 470.1
+            }
+          },
+          {
+            "id": 10,
+            "rotate": 150,
+            "translate": {
+              "x": 342.76458869354065,
+              "y": 657.2856724235867
+            }
+          },
+          {
+            "id": 8,
+            "rotate": 0,
+            "translate": {
+              "x": 574.3498235522098,
+              "y": 542.6000000000001
+            }
+          },
+          {
+            "id": 12,
+            "rotate": 0,
+            "translate": {
+              "x": -3.4309149866143045,
+              "y": 782.5925044921601
+            }
+          },
+          {
+            "id": 13,
+            "rotate": 0,
+            "translate": {
+              "x": 751.2247647701324,
+              "y": 440.2999999999997
+            }
+          },
+          {
+            "id": 14,
+            "rotate": 0,
+            "translate": {
+              "x": 135.9666546763955,
+              "y": 744.2681610829532
+            }
+          },
+          {
+            "id": 15,
+            "rotate": 0,
+            "translate": {
+              "x": 81.3875,
+              "y": 444.96803400537084
+            }
+          },
+          {
+            "id": 11,
+            "rotate": 240,
+            "translate": {
+              "x": 833.4898952406425,
+              "y": 683.446842768723
+            }
+          },
+          {
+            "id": 17,
+            "rotate": 300,
+            "translate": {
+              "x": 206.319503165448,
+              "y": 433.36388502167415
+            }
+          },
+          {
+            "id": 16,
+            "rotate": 0,
+            "translate": {
+              "x": 139.45802401536042,
+              "y": 276.62499999999955
+            }
+          },
+          {
+            "id": 19,
+            "rotate": 0,
+            "translate": {
+              "x": 282.8888933065441,
+              "y": 648.1431610829532
+            }
+          },
+          {
+            "id": 18,
+            "rotate": 210,
+            "translate": {
+              "x": 291.98983081585783,
+              "y": 759.4294322135936
+            }
+          },
+          {
+            "id": 21,
+            "rotate": 0,
+            "translate": {
+              "x": 335.797302777136,
+              "y": 712.8067778776309
+            }
+          },
+          {
+            "id": 20,
+            "rotate": 0,
+            "translate": {
+              "x": 132.1366384,
+              "y": 787.9050845742981
+            }
+          },
+          {
+            "id": 23,
+            "rotate": 0,
+            "translate": {
+              "x": 352.8964260094102,
+              "y": 827.5775506013358
+            }
+          },
+          {
+            "id": 22,
+            "rotate": 0,
+            "translate": {
+              "x": 689.3334304929963,
+              "y": 556.1904834040344
+            }
+          }
+        ]
+      ]
+    },
+    {
       "atomType": "GitHubMolecule",
       "x": 0.23031283710895362,
       "y": 0.6558891454965358,
@@ -155,88 +381,88 @@
         },
         {
           "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.1,
+          "x": 0.01815,
+          "y": 0.10999999999999999,
           "uniqueID": "id-215692",
           "name": "WoodThick",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.16,
+          "x": 0.01815,
+          "y": 0.176,
           "uniqueID": "id-215693",
           "name": "BeamLength",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.22,
+          "x": 0.01815,
+          "y": 0.242,
           "uniqueID": "id-215694",
           "name": "BeamHeight",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.28,
+          "x": 0.01815,
+          "y": 0.308,
           "uniqueID": "id-215695",
           "name": "TopHeight",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.34,
+          "x": 0.01815,
+          "y": 0.374,
           "uniqueID": "id-215696",
           "name": "LegWidth",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.4,
+          "x": 0.01815,
+          "y": 0.44,
           "uniqueID": "id-215697",
           "name": "LegAngle",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.46,
+          "x": 0.01815,
+          "y": 0.506,
           "uniqueID": "id-215698",
           "name": "BitDiameter",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.52,
+          "x": 0.01815,
+          "y": 0.5720000000000001,
           "uniqueID": "id-215699",
           "name": "Bolt2Diameter",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.5800000000000001,
+          "x": 0.01815,
+          "y": 0.6380000000000001,
           "uniqueID": "id-215700",
           "name": "TabletopLength",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.6400000000000001,
+          "x": 0.01815,
+          "y": 0.7040000000000002,
           "uniqueID": "id-215701",
           "name": "BoltDiameter",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.7000000000000002,
+          "x": 0.01815,
+          "y": 0.7700000000000002,
           "uniqueID": "id-215702",
           "name": "TabletopWidth",
           "type": "number"
@@ -403,8 +629,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.7600000000000002,
+          "x": 0.01815,
+          "y": 0.8360000000000003,
           "uniqueID": "id-215711",
           "name": "LegFromCenter",
           "type": "number"
@@ -921,48 +1147,48 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.1,
+              "x": 0.01815,
+              "y": 0.10999999999999999,
               "uniqueID": "id-215743",
               "name": "WoodThick",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.16,
+              "x": 0.01815,
+              "y": 0.176,
               "uniqueID": "id-215744",
               "name": "BeamLength",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.22,
+              "x": 0.01815,
+              "y": 0.242,
               "uniqueID": "id-215745",
               "name": "BeamHeight",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.28,
+              "x": 0.01815,
+              "y": 0.308,
               "uniqueID": "id-215746",
               "name": "TabletopWidth",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.34,
+              "x": 0.01815,
+              "y": 0.374,
               "uniqueID": "id-215747",
               "name": "TabletopLength",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.4,
+              "x": 0.01815,
+              "y": 0.44,
               "uniqueID": "id-215748",
               "name": "BeamAssembly",
               "type": "geometry"
@@ -1112,32 +1338,32 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.1,
+              "x": 0.01815,
+              "y": 0.10999999999999999,
               "uniqueID": "id-215751",
               "name": "WoodThick",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.16,
+              "x": 0.01815,
+              "y": 0.176,
               "uniqueID": "id-215752",
               "name": "BeamHeight",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.22,
+              "x": 0.01815,
+              "y": 0.242,
               "uniqueID": "id-215753",
               "name": "BitDiameter",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.28,
+              "x": 0.01815,
+              "y": 0.308,
               "uniqueID": "id-215754",
               "name": "Bolt2Diameter",
               "type": "number"
@@ -3099,24 +3325,24 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.1,
+              "x": 0.01815,
+              "y": 0.10999999999999999,
               "uniqueID": "id-215824",
               "name": "WoodThick",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.16,
+              "x": 0.01815,
+              "y": 0.176,
               "uniqueID": "id-215825",
               "name": "BeamHeight",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.22,
+              "x": 0.01815,
+              "y": 0.242,
               "uniqueID": "id-215826",
               "name": "TopHeight",
               "type": "number"
@@ -3171,24 +3397,24 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.28,
+              "x": 0.01815,
+              "y": 0.308,
               "uniqueID": "id-215830",
               "name": "LegWidth",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.34,
+              "x": 0.01815,
+              "y": 0.374,
               "uniqueID": "id-215831",
               "name": "BeamLength",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.4,
+              "x": 0.01815,
+              "y": 0.44,
               "uniqueID": "id-215832",
               "name": "LegAngle",
               "type": "number"
@@ -3919,8 +4145,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.46,
+              "x": 0.01815,
+              "y": 0.506,
               "uniqueID": "id-215873",
               "name": "Bolt2Diameter"
             },
@@ -4677,24 +4903,24 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.1,
+              "x": 0.01815,
+              "y": 0.10999999999999999,
               "uniqueID": "id-215887",
               "name": "WoodThick",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.16,
+              "x": 0.01815,
+              "y": 0.176,
               "uniqueID": "id-215888",
               "name": "BitDiameter",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.22,
+              "x": 0.01815,
+              "y": 0.242,
               "uniqueID": "id-215889",
               "name": "Bolt2Diameter",
               "type": "number"
@@ -6553,16 +6779,16 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.1,
+              "x": 0.01815,
+              "y": 0.10999999999999999,
               "uniqueID": "id-215965",
               "name": "BeamLength",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.16,
+              "x": 0.01815,
+              "y": 0.176,
               "uniqueID": "id-215966",
               "name": "BeamHeight",
               "type": "number"
@@ -6611,8 +6837,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.1,
+                  "x": 0.01815,
+                  "y": 0.10999999999999999,
                   "uniqueID": "id-215970",
                   "name": "2by4Length",
                   "type": "number"
@@ -6816,16 +7042,16 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.1,
+              "x": 0.01815,
+              "y": 0.10999999999999999,
               "uniqueID": "id-215976",
               "name": "WoodThick",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.16,
+              "x": 0.01815,
+              "y": 0.176,
               "uniqueID": "id-215977",
               "name": "BeamHeight",
               "type": "number"
@@ -7222,40 +7448,40 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.22,
+              "x": 0.01815,
+              "y": 0.242,
               "uniqueID": "id-215999",
               "name": "TabletopWidth",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.28,
+              "x": 0.01815,
+              "y": 0.308,
               "uniqueID": "id-216000",
               "name": "TabletopLength",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.34,
+              "x": 0.01815,
+              "y": 0.374,
               "uniqueID": "id-216001",
               "name": "BitDiameter",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.4,
+              "x": 0.01815,
+              "y": 0.44,
               "uniqueID": "id-216002",
               "name": "BoltDiameter",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.46,
+              "x": 0.01815,
+              "y": 0.506,
               "uniqueID": "id-216003",
               "name": "Bolt2Diameter"
             },
@@ -7303,24 +7529,24 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.1,
+                  "x": 0.01815,
+                  "y": 0.10999999999999999,
                   "uniqueID": "id-216006",
                   "name": "WoodThick",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.16,
+                  "x": 0.01815,
+                  "y": 0.176,
                   "uniqueID": "id-216007",
                   "name": "TabletopWidth",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.22,
+                  "x": 0.01815,
+                  "y": 0.242,
                   "uniqueID": "id-216008",
                   "name": "TabletopLength",
                   "type": "number"
@@ -7387,8 +7613,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.28,
+                  "x": 0.01815,
+                  "y": 0.308,
                   "uniqueID": "id-216013",
                   "name": "BoltDiameter",
                   "type": "number"
@@ -7955,8 +8181,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.34,
+                  "x": 0.01815,
+                  "y": 0.374,
                   "uniqueID": "id-216040",
                   "name": "BitDiameter",
                   "type": "number"
@@ -8817,24 +9043,24 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.1,
+                  "x": 0.01815,
+                  "y": 0.10999999999999999,
                   "uniqueID": "id-216061",
                   "name": "WoodThick",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.16,
+                  "x": 0.01815,
+                  "y": 0.176,
                   "uniqueID": "id-216062",
                   "name": "TabletopWidth",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.22,
+                  "x": 0.01815,
+                  "y": 0.242,
                   "uniqueID": "id-216063",
                   "name": "TabletopLength",
                   "type": "number"
@@ -8901,8 +9127,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.28,
+                  "x": 0.01815,
+                  "y": 0.308,
                   "uniqueID": "id-216068",
                   "name": "BoltDiameter",
                   "type": "number"
@@ -9469,8 +9695,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.34,
+                  "x": 0.01815,
+                  "y": 0.374,
                   "uniqueID": "id-216095",
                   "name": "BitDiameter",
                   "type": "number"
@@ -9812,8 +10038,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.4,
+                  "x": 0.01815,
+                  "y": 0.44,
                   "uniqueID": "id-216112",
                   "name": "Bolt2Diameter"
                 },
@@ -10970,16 +11196,16 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.1,
+              "x": 0.01815,
+              "y": 0.10999999999999999,
               "uniqueID": "id-216128",
               "name": "WoodThick",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.16,
+              "x": 0.01815,
+              "y": 0.176,
               "uniqueID": "id-216129",
               "name": "BeamHeight",
               "type": "number"
@@ -11312,40 +11538,40 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.22,
+              "x": 0.01815,
+              "y": 0.242,
               "uniqueID": "id-216151",
               "name": "TabletopWidth",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.28,
+              "x": 0.01815,
+              "y": 0.308,
               "uniqueID": "id-216152",
               "name": "TabletopLength",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.34,
+              "x": 0.01815,
+              "y": 0.374,
               "uniqueID": "id-216153",
               "name": "BoltDiameter",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.4,
+              "x": 0.01815,
+              "y": 0.44,
               "uniqueID": "id-216154",
               "name": "BitDiameter",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.46,
+              "x": 0.01815,
+              "y": 0.506,
               "uniqueID": "id-216155",
               "name": "Bolt2Diameter"
             },
@@ -11371,24 +11597,24 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.1,
+                  "x": 0.01815,
+                  "y": 0.10999999999999999,
                   "uniqueID": "id-216158",
                   "name": "WoodThick",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.16,
+                  "x": 0.01815,
+                  "y": 0.176,
                   "uniqueID": "id-216159",
                   "name": "TabletopWidth",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.22,
+                  "x": 0.01815,
+                  "y": 0.242,
                   "uniqueID": "id-216160",
                   "name": "TabletopLength",
                   "type": "number"
@@ -11427,8 +11653,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.28,
+                  "x": 0.01815,
+                  "y": 0.308,
                   "uniqueID": "id-216165",
                   "name": "BoltDiameter",
                   "type": "number"
@@ -11749,8 +11975,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.34,
+                  "x": 0.01815,
+                  "y": 0.374,
                   "uniqueID": "id-216192",
                   "name": "BitDiameter",
                   "type": "number"
@@ -12503,24 +12729,24 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.1,
+                  "x": 0.01815,
+                  "y": 0.10999999999999999,
                   "uniqueID": "id-216213",
                   "name": "WoodThick",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.16,
+                  "x": 0.01815,
+                  "y": 0.176,
                   "uniqueID": "id-216214",
                   "name": "TabletopWidth",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.22,
+                  "x": 0.01815,
+                  "y": 0.242,
                   "uniqueID": "id-216215",
                   "name": "TabletopLength",
                   "type": "number"
@@ -12559,8 +12785,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.28,
+                  "x": 0.01815,
+                  "y": 0.308,
                   "uniqueID": "id-216220",
                   "name": "BoltDiameter",
                   "type": "number"
@@ -12881,8 +13107,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.34,
+                  "x": 0.01815,
+                  "y": 0.374,
                   "uniqueID": "id-216247",
                   "name": "BitDiameter",
                   "type": "number"
@@ -13100,8 +13326,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.4,
+                  "x": 0.01815,
+                  "y": 0.44,
                   "uniqueID": "id-216264",
                   "name": "Bolt2Diameter"
                 },
@@ -14154,16 +14380,16 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.1,
+              "x": 0.01815,
+              "y": 0.10999999999999999,
               "uniqueID": "id-216280",
               "name": "WoodThick",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.16,
+              "x": 0.01815,
+              "y": 0.176,
               "uniqueID": "id-216281",
               "name": "BeamHeight",
               "type": "number"
@@ -14496,40 +14722,40 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.22,
+              "x": 0.01815,
+              "y": 0.242,
               "uniqueID": "id-216303",
               "name": "TabletopWidth",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.28,
+              "x": 0.01815,
+              "y": 0.308,
               "uniqueID": "id-216304",
               "name": "TabletopLength",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.34,
+              "x": 0.01815,
+              "y": 0.374,
               "uniqueID": "id-216305",
               "name": "BoltDiameter",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.4,
+              "x": 0.01815,
+              "y": 0.44,
               "uniqueID": "id-216306",
               "name": "BitDiameter",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.46,
+              "x": 0.01815,
+              "y": 0.506,
               "uniqueID": "id-216307",
               "name": "Bolt2Diameter"
             },
@@ -14555,24 +14781,24 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.1,
+                  "x": 0.01815,
+                  "y": 0.10999999999999999,
                   "uniqueID": "id-216310",
                   "name": "WoodThick",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.16,
+                  "x": 0.01815,
+                  "y": 0.176,
                   "uniqueID": "id-216311",
                   "name": "TabletopWidth",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.22,
+                  "x": 0.01815,
+                  "y": 0.242,
                   "uniqueID": "id-216312",
                   "name": "TabletopLength",
                   "type": "number"
@@ -14611,8 +14837,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.28,
+                  "x": 0.01815,
+                  "y": 0.308,
                   "uniqueID": "id-216317",
                   "name": "BoltDiameter",
                   "type": "number"
@@ -14933,8 +15159,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.34,
+                  "x": 0.01815,
+                  "y": 0.374,
                   "uniqueID": "id-216344",
                   "name": "BitDiameter",
                   "type": "number"
@@ -15687,24 +15913,24 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.1,
+                  "x": 0.01815,
+                  "y": 0.10999999999999999,
                   "uniqueID": "id-216365",
                   "name": "WoodThick",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.16,
+                  "x": 0.01815,
+                  "y": 0.176,
                   "uniqueID": "id-216366",
                   "name": "TabletopWidth",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.22,
+                  "x": 0.01815,
+                  "y": 0.242,
                   "uniqueID": "id-216367",
                   "name": "TabletopLength",
                   "type": "number"
@@ -15743,8 +15969,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.28,
+                  "x": 0.01815,
+                  "y": 0.308,
                   "uniqueID": "id-216372",
                   "name": "BoltDiameter",
                   "type": "number"
@@ -16065,8 +16291,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.34,
+                  "x": 0.01815,
+                  "y": 0.374,
                   "uniqueID": "id-216399",
                   "name": "BitDiameter",
                   "type": "number"
@@ -16284,8 +16510,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.4,
+                  "x": 0.01815,
+                  "y": 0.44,
                   "uniqueID": "id-216416",
                   "name": "Bolt2Diameter"
                 },
@@ -17338,16 +17564,16 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.1,
+              "x": 0.01815,
+              "y": 0.10999999999999999,
               "uniqueID": "id-216432",
               "name": "WoodThick",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.16,
+              "x": 0.01815,
+              "y": 0.176,
               "uniqueID": "id-216433",
               "name": "BeamHeight",
               "type": "number"
@@ -17680,40 +17906,40 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.22,
+              "x": 0.01815,
+              "y": 0.242,
               "uniqueID": "id-216455",
               "name": "TabletopWidth",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.28,
+              "x": 0.01815,
+              "y": 0.308,
               "uniqueID": "id-216456",
               "name": "TabletopLength",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.34,
+              "x": 0.01815,
+              "y": 0.374,
               "uniqueID": "id-216457",
               "name": "BoltDiameter",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.4,
+              "x": 0.01815,
+              "y": 0.44,
               "uniqueID": "id-216458",
               "name": "BitDiameter",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.46,
+              "x": 0.01815,
+              "y": 0.506,
               "uniqueID": "id-216459",
               "name": "Bolt2Diameter"
             },
@@ -17739,24 +17965,24 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.1,
+                  "x": 0.01815,
+                  "y": 0.10999999999999999,
                   "uniqueID": "id-216462",
                   "name": "WoodThick",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.16,
+                  "x": 0.01815,
+                  "y": 0.176,
                   "uniqueID": "id-216463",
                   "name": "TabletopWidth",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.22,
+                  "x": 0.01815,
+                  "y": 0.242,
                   "uniqueID": "id-216464",
                   "name": "TabletopLength",
                   "type": "number"
@@ -17795,8 +18021,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.28,
+                  "x": 0.01815,
+                  "y": 0.308,
                   "uniqueID": "id-216469",
                   "name": "BoltDiameter",
                   "type": "number"
@@ -18117,8 +18343,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.34,
+                  "x": 0.01815,
+                  "y": 0.374,
                   "uniqueID": "id-216496",
                   "name": "BitDiameter",
                   "type": "number"
@@ -18871,24 +19097,24 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.1,
+                  "x": 0.01815,
+                  "y": 0.10999999999999999,
                   "uniqueID": "id-216517",
                   "name": "WoodThick",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.16,
+                  "x": 0.01815,
+                  "y": 0.176,
                   "uniqueID": "id-216518",
                   "name": "TabletopWidth",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.22,
+                  "x": 0.01815,
+                  "y": 0.242,
                   "uniqueID": "id-216519",
                   "name": "TabletopLength",
                   "type": "number"
@@ -18927,8 +19153,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.28,
+                  "x": 0.01815,
+                  "y": 0.308,
                   "uniqueID": "id-216524",
                   "name": "BoltDiameter",
                   "type": "number"
@@ -19249,8 +19475,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.34,
+                  "x": 0.01815,
+                  "y": 0.374,
                   "uniqueID": "id-216551",
                   "name": "BitDiameter",
                   "type": "number"
@@ -19468,8 +19694,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.4,
+                  "x": 0.01815,
+                  "y": 0.44,
                   "uniqueID": "id-216568",
                   "name": "Bolt2Diameter"
                 },
@@ -20510,24 +20736,24 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.1,
+              "x": 0.01815,
+              "y": 0.10999999999999999,
               "uniqueID": "id-216584",
               "name": "BeamLength",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.16,
+              "x": 0.01815,
+              "y": 0.176,
               "uniqueID": "id-216585",
               "name": "BeamHeight",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.22,
+              "x": 0.01815,
+              "y": 0.242,
               "uniqueID": "id-216586",
               "name": "Woodthick",
               "type": "number"
@@ -20738,8 +20964,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0165,
-              "y": 0.28,
+              "x": 0.01815,
+              "y": 0.308,
               "uniqueID": "id-216598",
               "name": "Bolt2Diameter"
             },
@@ -20799,24 +21025,24 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.1,
+                  "x": 0.01815,
+                  "y": 0.10999999999999999,
                   "uniqueID": "id-216602",
                   "name": "WoodThick",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.16,
+                  "x": 0.01815,
+                  "y": 0.176,
                   "uniqueID": "id-216603",
                   "name": "BeamLength",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.22,
+                  "x": 0.01815,
+                  "y": 0.242,
                   "uniqueID": "id-216604",
                   "name": "BeamHeight",
                   "type": "number"
@@ -21239,8 +21465,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.28,
+                  "x": 0.01815,
+                  "y": 0.308,
                   "uniqueID": "id-216629",
                   "name": "Bolt2Diameter"
                 },
@@ -22066,16 +22292,16 @@
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.0165,
-                      "y": 0.1,
+                      "x": 0.01815,
+                      "y": 0.10999999999999999,
                       "uniqueID": "id-216672",
                       "name": "WoodThick",
                       "type": "number"
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.0165,
-                      "y": 0.16,
+                      "x": 0.01815,
+                      "y": 0.176,
                       "uniqueID": "id-216673",
                       "name": "BeamWidth",
                       "type": "number"
@@ -22311,16 +22537,16 @@
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.0165,
-                      "y": 0.1,
+                      "x": 0.01815,
+                      "y": 0.10999999999999999,
                       "uniqueID": "id-216683",
                       "name": "WoodThick",
                       "type": "number"
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.0165,
-                      "y": 0.16,
+                      "x": 0.01815,
+                      "y": 0.176,
                       "uniqueID": "id-216684",
                       "name": "BeamWidth",
                       "type": "number"
@@ -22556,16 +22782,16 @@
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.0165,
-                      "y": 0.1,
+                      "x": 0.01815,
+                      "y": 0.10999999999999999,
                       "uniqueID": "id-216694",
                       "name": "WoodThick",
                       "type": "number"
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.0165,
-                      "y": 0.16,
+                      "x": 0.01815,
+                      "y": 0.176,
                       "uniqueID": "id-216695",
                       "name": "BeamWidth",
                       "type": "number"
@@ -22801,16 +23027,16 @@
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.0165,
-                      "y": 0.1,
+                      "x": 0.01815,
+                      "y": 0.10999999999999999,
                       "uniqueID": "id-216705",
                       "name": "WoodThick",
                       "type": "number"
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.0165,
-                      "y": 0.16,
+                      "x": 0.01815,
+                      "y": 0.176,
                       "uniqueID": "id-216706",
                       "name": "BeamWidth",
                       "type": "number"
@@ -23046,16 +23272,16 @@
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.0165,
-                      "y": 0.1,
+                      "x": 0.01815,
+                      "y": 0.10999999999999999,
                       "uniqueID": "id-216716",
                       "name": "WoodThick",
                       "type": "number"
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.0165,
-                      "y": 0.16,
+                      "x": 0.01815,
+                      "y": 0.176,
                       "uniqueID": "id-216717",
                       "name": "BeamWidth",
                       "type": "number"
@@ -23291,16 +23517,16 @@
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.0165,
-                      "y": 0.1,
+                      "x": 0.01815,
+                      "y": 0.10999999999999999,
                       "uniqueID": "id-216727",
                       "name": "WoodThick",
                       "type": "number"
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.0165,
-                      "y": 0.16,
+                      "x": 0.01815,
+                      "y": 0.176,
                       "uniqueID": "id-216728",
                       "name": "BeamWidth",
                       "type": "number"
@@ -23537,16 +23763,16 @@
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.0165,
-                      "y": 0.1,
+                      "x": 0.01815,
+                      "y": 0.10999999999999999,
                       "uniqueID": "id-216738",
                       "name": "WoodThick",
                       "type": "number"
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.0165,
-                      "y": 0.16,
+                      "x": 0.01815,
+                      "y": 0.176,
                       "uniqueID": "id-216739",
                       "name": "BeamWidth",
                       "type": "number"
@@ -24513,24 +24739,24 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.1,
+                  "x": 0.01815,
+                  "y": 0.10999999999999999,
                   "uniqueID": "id-216750",
                   "name": "WoodThick",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.16,
+                  "x": 0.01815,
+                  "y": 0.176,
                   "uniqueID": "id-216751",
                   "name": "BeamLength",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.22,
+                  "x": 0.01815,
+                  "y": 0.242,
                   "uniqueID": "id-216752",
                   "name": "BeamHeight",
                   "type": "number"
@@ -24953,8 +25179,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0165,
-                  "y": 0.28,
+                  "x": 0.01815,
+                  "y": 0.308,
                   "uniqueID": "id-216777",
                   "name": "Bolt2Diameter"
                 },
@@ -25780,16 +26006,16 @@
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.0165,
-                      "y": 0.1,
+                      "x": 0.01815,
+                      "y": 0.10999999999999999,
                       "uniqueID": "id-216820",
                       "name": "WoodThick",
                       "type": "number"
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.0165,
-                      "y": 0.16,
+                      "x": 0.01815,
+                      "y": 0.176,
                       "uniqueID": "id-216821",
                       "name": "BeamWidth",
                       "type": "number"
@@ -26025,16 +26251,16 @@
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.0165,
-                      "y": 0.1,
+                      "x": 0.01815,
+                      "y": 0.10999999999999999,
                       "uniqueID": "id-216831",
                       "name": "WoodThick",
                       "type": "number"
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.0165,
-                      "y": 0.16,
+                      "x": 0.01815,
+                      "y": 0.176,
                       "uniqueID": "id-216832",
                       "name": "BeamWidth",
                       "type": "number"
@@ -26270,16 +26496,16 @@
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.0165,
-                      "y": 0.1,
+                      "x": 0.01815,
+                      "y": 0.10999999999999999,
                       "uniqueID": "id-216842",
                       "name": "WoodThick",
                       "type": "number"
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.0165,
-                      "y": 0.16,
+                      "x": 0.01815,
+                      "y": 0.176,
                       "uniqueID": "id-216843",
                       "name": "BeamWidth",
                       "type": "number"
@@ -26515,16 +26741,16 @@
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.0165,
-                      "y": 0.1,
+                      "x": 0.01815,
+                      "y": 0.10999999999999999,
                       "uniqueID": "id-216853",
                       "name": "WoodThick",
                       "type": "number"
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.0165,
-                      "y": 0.16,
+                      "x": 0.01815,
+                      "y": 0.176,
                       "uniqueID": "id-216854",
                       "name": "BeamWidth",
                       "type": "number"
@@ -26760,16 +26986,16 @@
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.0165,
-                      "y": 0.1,
+                      "x": 0.01815,
+                      "y": 0.10999999999999999,
                       "uniqueID": "id-216864",
                       "name": "WoodThick",
                       "type": "number"
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.0165,
-                      "y": 0.16,
+                      "x": 0.01815,
+                      "y": 0.176,
                       "uniqueID": "id-216865",
                       "name": "BeamWidth",
                       "type": "number"
@@ -27005,16 +27231,16 @@
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.0165,
-                      "y": 0.1,
+                      "x": 0.01815,
+                      "y": 0.10999999999999999,
                       "uniqueID": "id-216875",
                       "name": "WoodThick",
                       "type": "number"
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.0165,
-                      "y": 0.16,
+                      "x": 0.01815,
+                      "y": 0.176,
                       "uniqueID": "id-216876",
                       "name": "BeamWidth",
                       "type": "number"
@@ -27251,16 +27477,16 @@
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.0165,
-                      "y": 0.1,
+                      "x": 0.01815,
+                      "y": 0.10999999999999999,
                       "uniqueID": "id-216886",
                       "name": "WoodThick",
                       "type": "number"
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.0165,
-                      "y": 0.16,
+                      "x": 0.01815,
+                      "y": 0.176,
                       "uniqueID": "id-216887",
                       "name": "BeamWidth",
                       "type": "number"
@@ -28952,245 +29178,18 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "CutLayout",
-      "x": 0.4192708333333333,
-      "y": 0.572463768115942,
-      "uniqueID": "id-254092",
-      "name": "Cut Layout",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Sheet Width",
-          "ioValue": 2500,
-          "currentEquation": "2500"
-        },
-        {
-          "name": "Sheet Height",
-          "ioValue": 1300,
-          "currentEquation": "1300"
-        },
-        {
-          "name": "Part Padding",
-          "ioValue": 10
-        },
-        {
-          "name": "Orientations",
-          "ioValue": 12
-        }
-      ],
-      "placements": [
-        [
-          {
-            "id": 0,
-            "rotate": 0,
-            "translate": {
-              "x": 1224.2000000000005,
-              "y": 106.7
-            }
-          },
-          {
-            "id": 2,
-            "rotate": 0,
-            "translate": {
-              "x": 844.7335301377148,
-              "y": 237.6500000000002
-            }
-          },
-          {
-            "id": 3,
-            "rotate": 60,
-            "translate": {
-              "x": 1889.747396979107,
-              "y": 537.7531294932531
-            }
-          },
-          {
-            "id": 1,
-            "rotate": 0,
-            "translate": {
-              "x": 1363.2620158020263,
-              "y": 286.15000000000003
-            }
-          },
-          {
-            "id": 5,
-            "rotate": 180,
-            "translate": {
-              "x": 1224.2,
-              "y": 968.7680340053707
-            }
-          },
-          {
-            "id": 4,
-            "rotate": 0,
-            "translate": {
-              "x": 902.3888686727873,
-              "y": 334.6499999999996
-            }
-          },
-          {
-            "id": 7,
-            "rotate": 0,
-            "translate": {
-              "x": 2054.4371972222552,
-              "y": 498.60000000000053
-            }
-          },
-          {
-            "id": 6,
-            "rotate": 0,
-            "translate": {
-              "x": 77.63349295847311,
-              "y": 678.3680340053709
-            }
-          },
-          {
-            "id": 9,
-            "rotate": 0,
-            "translate": {
-              "x": 2195.2351892820875,
-              "y": 470.1
-            }
-          },
-          {
-            "id": 10,
-            "rotate": 150,
-            "translate": {
-              "x": 342.76458869354065,
-              "y": 657.2856724235867
-            }
-          },
-          {
-            "id": 8,
-            "rotate": 0,
-            "translate": {
-              "x": 574.3498235522098,
-              "y": 542.6000000000001
-            }
-          },
-          {
-            "id": 12,
-            "rotate": 0,
-            "translate": {
-              "x": -3.4309149866143045,
-              "y": 782.5925044921601
-            }
-          },
-          {
-            "id": 13,
-            "rotate": 0,
-            "translate": {
-              "x": 751.2247647701324,
-              "y": 440.2999999999997
-            }
-          },
-          {
-            "id": 14,
-            "rotate": 0,
-            "translate": {
-              "x": 135.9666546763955,
-              "y": 744.2681610829532
-            }
-          },
-          {
-            "id": 15,
-            "rotate": 0,
-            "translate": {
-              "x": 81.3875,
-              "y": 444.96803400537084
-            }
-          },
-          {
-            "id": 11,
-            "rotate": 240,
-            "translate": {
-              "x": 833.4898952406425,
-              "y": 683.446842768723
-            }
-          },
-          {
-            "id": 17,
-            "rotate": 300,
-            "translate": {
-              "x": 206.319503165448,
-              "y": 433.36388502167415
-            }
-          },
-          {
-            "id": 16,
-            "rotate": 0,
-            "translate": {
-              "x": 139.45802401536042,
-              "y": 276.62499999999955
-            }
-          },
-          {
-            "id": 19,
-            "rotate": 0,
-            "translate": {
-              "x": 282.8888933065441,
-              "y": 648.1431610829532
-            }
-          },
-          {
-            "id": 18,
-            "rotate": 210,
-            "translate": {
-              "x": 291.98983081585783,
-              "y": 759.4294322135936
-            }
-          },
-          {
-            "id": 21,
-            "rotate": 0,
-            "translate": {
-              "x": 335.797302777136,
-              "y": 712.8067778776309
-            }
-          },
-          {
-            "id": 20,
-            "rotate": 0,
-            "translate": {
-              "x": 132.1366384,
-              "y": 787.9050845742981
-            }
-          },
-          {
-            "id": 23,
-            "rotate": 0,
-            "translate": {
-              "x": 352.8964260094102,
-              "y": 827.5775506013358
-            }
-          },
-          {
-            "id": 22,
-            "rotate": 0,
-            "translate": {
-              "x": 689.3334304929963,
-              "y": 556.1904834040344
-            }
-          }
-        ]
-      ]
     }
   ],
   "allConnectors": [
     {
       "ap2Name": "geometry",
-      "ap1ID": "id-216895",
-      "ap2ID": "id-254092"
+      "ap1ID": "id-254092",
+      "ap2ID": "id-171303"
     },
     {
       "ap2Name": "geometry",
-      "ap1ID": "id-254092",
-      "ap2ID": "id-171303"
+      "ap1ID": "id-216895",
+      "ap2ID": "id-254092"
     }
   ],
   "unitsKey": "MM",
